@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-
-
 OPEN_AI_KEY=os.getenv("OPEN_AI_KEY")
 FILE_ID=os.getenv("FILE_ID")
 FINE_TUNED_MODEL=os.getenv("FINE_TUNED_MODEL")
